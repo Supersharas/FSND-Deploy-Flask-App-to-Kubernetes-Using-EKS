@@ -2,8 +2,8 @@
 version: 0.2
 
 env:
-  parameter-store:         
-    JWT_SECRET: JWT_SECRET
+  variables:         
+    JWT_SECRET: '8d9cede471d1f174b7d2f6fa0c730254b0a20b21'
 
 
 phases:
