@@ -38,4 +38,6 @@ phases:
       - pwd
       - ls
 artifacts:
-  files: build.json
+  files:
+    - '**/*'
+  name: myname-$(date +%Y-%m-%d)
